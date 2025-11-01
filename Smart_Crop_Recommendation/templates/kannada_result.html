@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>Crop Recommendation</title>
+</head>
+<body bgcolor=#e6e6fa>
+
+    <center>
+
+        <h1>  ನೀವು ಬೆಳೆಯಲು ಸೂಕ್ತವಾದ ಬೆಳೆ </h1>
+     <form method="POST", action="/kannada_result">
+    {%if data == 0%}
+    <h1> ಸೇಬು</h1>  
+    <img src='static\apple.jpg'>  
+
+	{%elif data == 1%}
+    <h1>ಬಾಳೆಹಣ್ಣು</h1>  
+    <img src='static\banana.jpg'> 
+	
+	{%elif data == 2%}
+    <h1>ಕಪ್ಪು ಗ್ರಾಂ</h1>  
+    <img src='static\blackgram.jpg'> 
+	
+	{%elif data == 3%}
+    <h1>ಕಡಲೆ</h1>  
+    <img src='static\chickpea.jpg'> 
+	
+	{%elif data == 4%}
+    <h1>ತೆಂಗಿನ ಕಾಯಿ</h1>  
+    <img src='static\coconut.jpg'> 
+	
+	{%elif data == 5%}
+    <h1>ಕಾಫಿ</h1>  
+    <img src='static\coffee.jpg'> 
+	
+	{%elif data == 6%}
+    <h1>ಹತ್ತಿ</h1>  
+    <img src='static\cotton.jpg'> 
+	
+	{%elif data == 7%}
+    <h1>ದ್ರಾಕ್ಷಿ</h1>  
+    <img src='static\grapes.jpg'> 
+	
+	{%elif data == 8%}
+    <h1>ಸೆಣಬು</h1>  
+    <img src='static\jute.jpg'> 
+	
+	{%elif data == 9%}
+    <h1>ಕಿಡ್ನಿ ಬೀನ್ಸ್</h1>  
+    <img src='static\kidneybeans.jpg'> 
+	
+	{%elif data == 10%}
+    <h1>ಮಸೂರ</h1>  
+    <img src='static\lentil.jpg'> 
+	
+	{%elif data == 11%}
+    <h1>ಮೆಕ್ಕೆ ಜೋಳ</h1>  
+    <img src='static\maize.jpg'> 
+	
+	{%elif data == 12%}
+    <h1>ಮಾವು</h1>  
+    <img src='static\mango.jpg'> 
+	
+	{%elif data == 13%}
+    <h1>ಹಲಸಂದಿ ಕಾಳು</h1>  
+    <img src='static\mothbeans.jpg'> 
+	
+	{%elif data == 14%}
+    <h1>ಮುಂಗ್ಬೀನ್ಸ್</h1>  
+    <img src='static\mungbeans.jpg'> 
+	
+	{%elif data == 15%}
+    <h1>ಕಸ್ತೂರಿ</h1>  
+    <img src='static\muskmelon.jpg'> 
+	
+	{%elif data == 16%}
+    <h1>ಕಿತ್ತಳೆ</h1>  
+    <img src='static\orange.jpg'> 
+	
+	{%elif data == 17%}
+    <h1>ಪಪ್ಪಾಯಿ</h1>  
+    <img src='static\papaya.jpg'> 
+	
+	{%elif data == 18%}
+    <h1>ಬಟಾಣಿ</h1>  
+    <img src='static\pigeonpeas.jpg'> 
+	
+	{%elif data == 19%}
+    <h1>ದಾಳಿಂಬೆ</h1>  
+    <img src='static\pomegranate.jpg'> 
+	
+	{%elif data == 20%}
+    <h1 lang='kn'>ಅಕ್ಕಿ</h1>  
+    <img src='static\rice.jpg'> 
+	
+    {%else%}
+    <h1>ಕಲ್ಲಂಗಡಿ</h1>
+    <img src='static\watermelon.jpg'>
+    
+    {%endif%}
+	</form>
+        <br><br>
+    <a href='/'>ಮುಖಪುಟಕ್ಕೆ ಹಿಂತಿರುಗಿ</a>
+
+    </center>
+
+</body>
+
+</html>

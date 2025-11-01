@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Crop Recommendation</title>
+</head>
+    <body style='background-color:		#f0f8ff'>
+
+        <center>
+
+        <h1> ಯಾವ ಬೆಳೆ ಬೆಳೆಯಬೇಕೆಂದು  ಇಲ್ಲಿ ಪರಿಶೀಲಿಸಿ </h1><br>
+        
+        <form method="POST", action="{{url_for('result')}}">
+           <b> ಸಾರಜನಕ :  <input type="text", name='N', placeholder="Nitrogen Value"> <br><br>
+			ರಂಜಕ :  <input type="text", name='P', placeholder="Phosphorus Value"> <br><br>
+			ಪೊಟ್ಯಾಸಿಯಮ್ :  <input type="text", name='K', placeholder="Potassium Value"> <br><br>
+			ತಾಪಮಾನ : <input type="text", name='temperature', placeholder="Temperature Value"> <br><br>
+			ಆರ್ದ್ರತೆ : <input type="text", name='humidity', placeholder="Humidity Value"> <br><br>
+			ಪಿ.ಎಚ್ : <input type="text", name='ph', placeholder="PH Value"> <br><br>
+			ಮಳೆ  : <input type="text", name='rainfall', placeholder="Rainfall Value"> <br><br>
+			<br></b>
+            <input type="submit" , value='ಸಲ್ಲಿಸಿ' >
+        </form>
+		
+		 <img src='static\crop.jpg' alt="flower">
+
+    </center>
+
+    </body>
+</html>

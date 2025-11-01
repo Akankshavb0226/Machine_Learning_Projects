@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>Crop Recommendation</title>
+</head>
+<body bgcolor=#e6e6fa>
+
+	
+    <center>
+
+        <h1>  A crop suitable for growing  </h1>
+	 <form method="POST", action="/english_result">
+    {%if data == 0%}
+    <h1>Apple</h1>  
+    <img src='static\apple.jpg'>  
+
+	{%elif data == 1%}
+    <h1>Banana</h1>  
+    <img src='static\banana.jpg'> 
+	
+	{%elif data == 2%}
+    <h1>Blackgram</h1>  
+    <img src='static\blackgram.jpg'> 
+	
+	{%elif data == 3%}
+    <h1>Chickpea</h1>  
+    <img src='static\chickpea.jpg'> 
+	
+	{%elif data == 4%}
+    <h1>Coconut</h1>  
+    <img src='static\coconut.jpg'> 
+	
+	{%elif data == 5%}
+    <h1>Coffee</h1>  
+    <img src='static\coffee.jpg'> 
+	
+	{%elif data == 6%}
+    <h1>Cotton</h1>  
+    <img src='static\cotton.jpg'> 
+	
+	{%elif data == 7%}
+    <h1>Grapes</h1>  
+    <img src='static\grapes.jpg'> 
+	
+	{%elif data == 8%}
+    <h1>Jute</h1>  
+    <img src='static\jute.jpg'> 
+	
+	{%elif data == 9%}
+    <h1>Kidneybeans</h1>  
+    <img src='static\kidneybeans.jpg'> 
+	
+	{%elif data == 10%}
+    <h1>Lentil</h1>  
+    <img src='static\lentil.jpg'> 
+	
+	{%elif data == 11%}
+    <h1>Maize</h1>  
+    <img src='static\maize.jpg'> 
+	
+	{%elif data == 12%}
+    <h1>Mango</h1>  
+    <img src='static\mango.jpg'> 
+	
+	{%elif data == 13%}
+    <h1>Mothbeans</h1>  
+    <img src='static\mothbeans.jpg'> 
+	
+	{%elif data == 14%}
+    <h1>Mungbeans</h1>  
+    <img src='static\mungbeans.jpg'> 
+	
+	{%elif data == 15%}
+    <h1>Muskmelon</h1>  
+    <img src='static\muskmelon.jpg'> 
+	
+	{%elif data == 16%}
+    <h1>Orange</h1>  
+    <img src='static\orange.jpg'> 
+	
+	{%elif data == 17%}
+    <h1>Papaya</h1>  
+    <img src='static\papaya.jpg'> 
+	
+	{%elif data == 18%}
+    <h1>Pigeonpeas</h1>  
+    <img src='static\pigeonpeas.jpg'> 
+	
+	{%elif data == 19%}
+    <h1>Pomegranate</h1>  
+    <img src='static\pomegranate.jpg'> 
+	
+	{%elif data == 20%}
+    <h1>Rice</h1>  
+    <img src='static\rice.jpg'> 
+	
+    {%else%}
+    <h1>Watermelon</h1>
+    <img src='static\watermelon.jpg'>
+    
+    {%endif%}
+	</form>
+
+        <br><br>
+    <a href='/'>Go back to home page</a>
+
+    </center>
+	
+
+</body>
+
+</html>
