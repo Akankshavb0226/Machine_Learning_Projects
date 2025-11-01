@@ -5,7 +5,6 @@ I built a proof-of-concept using a **two-layer Graph Convolutional Network (GCN)
 **My role:** graph + features design, GCN implementation (PyTorch Geometric), training/evaluation, plots, and documentation.
 
 > **Impact (POC):** clear separation of healthy vs. faulty sensors; ECU aggregation flags affected ECUs.  
-> _Add a metric if you can, e.g., “~92% node-level accuracy on synthetic data.”_
 
 ## Overview
 - **Graph:** nodes = sensors; edges = wiring/functional links  
