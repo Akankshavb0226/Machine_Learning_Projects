@@ -38,6 +38,7 @@ The system uses multi-source datasets combining field sensor values and publicly
 
 ## Methodology
 The following block diagram methodology describes the complete flow of the Smart Crop Recommendation System, from data processing to final prediction.
+
 ![Methodology](https://github.com/Akankshavb0226/Machine_Learning_Projects/blob/42466e1027b5abb4ee1d2937b90f07b77e190d1f/Smart_Crop_Recommendation/Images/Methodology.png)
 1. **Data Collection**  
    A large volume of agricultural and sensor data is collected and fed into the system.
@@ -62,8 +63,6 @@ The following block diagram methodology describes the complete flow of the Smart
 
 8. **Result Generation**  
    Based on predictions and evaluations, the system produces the final recommended crop.
-
----
 
 ### IoT-Based Live Data Flow
 
