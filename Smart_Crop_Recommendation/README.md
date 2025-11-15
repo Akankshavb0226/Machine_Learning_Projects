@@ -37,11 +37,48 @@ This is the hardware setup used.
 The system uses multi-source datasets combining field sensor values and publicly available agricultural records. The dataset includes measurements of rainfall, humidity, temperature, pH, NPK concentration, and associated crop labels.
 
 ## Methodology
-1. Sensor data collected from field and transmitted to server-client architecture  
-2. Data exploration, cleaning, and visualization  
-3. Train/test split (typically 80/20)  
-4. Model training, evaluation, and prediction using selected ML algorithms  
-5. Crop suggestion output to end user as shown below
+The following block diagram methodology describes the complete flow of the Smart Crop Recommendation System, from data processing to final prediction.
+![Methodology] (https://github.com/Akankshavb0226/Machine_Learning_Projects/blob/42466e1027b5abb4ee1d2937b90f07b77e190d1f/Smart_Crop_Recommendation/Images/Methodology.png)
+1. **Data Collection**  
+   A large volume of agricultural and sensor data is collected and fed into the system.
+
+2. **Data Exploration**  
+   The system performs exploratory analysis on every feature and parameter.
+
+3. **Data Splitting**  
+   The processed dataset is divided into training and testing subsets.
+
+4. **Model Training**  
+   The training portion of the data is used to train machine learning models for accurate prediction.
+
+5. **Model Evaluation**  
+   Evaluation metrics are used to measure how well the model has learned from the training data.
+
+6. **Accuracy Measurement**  
+   Model accuracy is calculated to verify efficiency and identify improvements.
+
+7. **Prediction Phase**  
+   The model performs predictions to validate how effectively it generalizes to new data.
+
+8. **Result Generation**  
+   Based on predictions and evaluations, the system produces the final recommended crop.
+
+---
+
+### IoT-Based Live Data Flow
+
+9. **Sensor Measurement**  
+   Sensors (NPK, pH, temperature, humidity, rainfall) measure real-time environmental parameters.
+
+10. **Client System Input**  
+   The measured parameters are entered into the IoT client system (ESP32 or dashboard).
+
+11. **Server Processing**  
+   The backend server receives the sensor data, processes it, and runs the ML model.
+
+12. **Result Delivery**  
+   The processed output (recommended crop) is sent back to the client system for user display.
+
    ![Expected Output](https://github.com/Akankshavb0226/Machine_Learning_Projects/blob/4df6c8de86fc24259a9e3c2f2527889bbb9377b8/Smart_Crop_Recommendation/Images/Expected%20output.png)
 
 ## Outcomes
