@@ -4,7 +4,7 @@
 This project applies machine learning to precision agriculture, aiming to help farmers select optimal crops based on real-time soil and environmental data. By deploying sensors in fields to gather parameters such as rainfall, humidity, temperature, pH, and NPK nutrients, the solution enables data-driven decision support for crop selection, increasing productivity and yield.
 
 ### Hardware at a Glance
-This is the actual hardware prototype used for sensor-based crop recommendation.
+This is the hardware setup used.
 
 ![Hardware Setup](https://github.com/Akankshavb0226/Machine_Learning_Projects/blob/4df6c8de86fc24259a9e3c2f2527889bbb9377b8/Smart_Crop_Recommendation/Images/Hardware%20Setup.png?raw=true)
 
